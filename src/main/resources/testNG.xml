@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Streams in Selenium">
+
+    <listeners>
+        <listener class-name="com.streams.reports.ExtentListeners"></listener>
+    </listeners>
+    <test name="UI Automation">
+        <classes>
+            <class name="com.streams.testcases.TestCaseForStreams"></class>
+
+        </classes>
+    </test>
+</suite>
